@@ -207,6 +207,8 @@ header img {
     display: flex;
     justify-content: space-between;
     width: 100%;
+    padding-left: 25px;
+    padding-right: 25px;
     margin-bottom: 50px;
     flex-wrap: wrap;
 }
@@ -252,6 +254,7 @@ header img {
 
 .h1-1 {
     font-size: 40px;
+    margin-left: -5px;
     color: black;
 }
 
@@ -264,10 +267,12 @@ header img {
 .page-info h3 {
     color: gray;
     font-size: 15px;
+    margin-left: -5px;
 }
 
 .page-info p {
     color: black;
     font-size: 10px;
     margin-bottom: -5px;
+    margin-left: -5px;
 }
