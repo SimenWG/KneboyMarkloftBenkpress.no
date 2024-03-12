@@ -166,3 +166,36 @@ header img {
   .text-overlay h2 {
     font-size: 24px;
   }
+
+  @media (max-width: 768px) {
+    .top ul {
+      flex-direction: column;
+    }
+  
+    .top li {
+      padding: 10px 0;
+      text-align: center;
+    }
+  
+    .top a {
+      border-right: none;
+      padding: 10px 0;
+    }
+  
+    header img {
+      width: 40px;
+    }
+  
+    .top-info {
+      background-color: lightgray;
+    }
+  
+    .text-overlay h1 {
+      font-size: 36px;
+    }
+  
+    .text-overlay h2 {
+      font-size: 18px;
+    }
+  }
+  

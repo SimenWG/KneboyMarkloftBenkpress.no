@@ -195,3 +195,51 @@ header img {
         background-color: rgb(82, 82, 82);
         color: #fff;
     }
+
+    @media (max-width: 768px) {
+        header img {
+            width: 40px;
+        }
+      
+        .accountinfo h1 {
+            font-size: 36px;
+        }
+      
+        .accountinfo h2 {
+            font-size: 24px;
+        }
+      
+        .accountinfo p {
+            font-size: 18px;
+        }
+    
+        .container {
+            max-width: 90%;
+            margin: auto;
+        }
+    
+        .top-info {
+            background-color: lightblue;
+        }
+    
+        .top ul {
+            flex-direction: column;
+        }
+    
+        .top li {
+            padding: 10px 0;
+        }
+    
+        .top a {
+            padding: 10px 15px;
+        }
+    
+        button {
+            font-size: 16px;
+        }
+    
+        button a {
+            font-size: 16px;
+        }
+    }
+    

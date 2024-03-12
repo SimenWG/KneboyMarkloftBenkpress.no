@@ -276,3 +276,55 @@ header img {
     margin-bottom: -5px;
     margin-left: -5px;
 }
+
+@media (max-width: 768px) {
+    body {
+      font-size: 14px;
+    }
+  
+    .top-info {
+      background-color: lightgray;
+    }
+  
+    .top ul {
+      flex-direction: column;
+    }
+  
+    .top li {
+      padding: 10px 0;
+    }
+  
+    .top a {
+      padding: 10px 15px;
+    }
+  
+    header img {
+      width: 40px;
+    }
+  
+    .text-overlay h1 {
+      font-size: 36px;
+    }
+  
+    .text-overlay h2 {
+      font-size: 18px;
+    }
+  
+    .mensinfo {
+      flex-direction: column;
+    }
+  
+    .clothes-row {
+      padding: 0;
+      margin-bottom: 20px;
+    }
+  
+    .clothes-item {
+      width: 100%;
+    }
+  
+    .clothes-item img {
+      width: 100%;
+    }
+  }
+  
