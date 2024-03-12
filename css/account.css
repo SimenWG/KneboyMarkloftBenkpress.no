@@ -202,11 +202,11 @@ header img {
         }
       
         .accountinfo h1 {
-            font-size: 36px;
+            font-size: 26px;
         }
       
         .accountinfo h2 {
-            font-size: 24px;
+            font-size: 14px;
         }
       
         .accountinfo p {
@@ -219,7 +219,7 @@ header img {
         }
     
         .top-info {
-            background-color: lightblue;
+            background-color: lightgray;
         }
     
         .top ul {
