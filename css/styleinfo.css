@@ -85,7 +85,7 @@ header {
 
 header img {
     height: auto;
-    width: 50px;
+    width: 130px;
 }
 
 .nav {
@@ -178,6 +178,75 @@ header img {
   .text-overlay h2 {
     font-size: 50px;
   }
+
+  .footer {
+    background-color: black;
+    color: white;
+    padding: 0;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+.footer-info, .footer-links, .footer-social {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.footer h3 {
+    margin-bottom: 20px;
+}
+
+.footer p {
+    margin-bottom: 10px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: gray;
+}
+
+.footer-social ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-social li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.footer-social a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+
+.footer-social a:hover {
+    color: gray;
+}
+
 
   @media (max-width: 768px) {
     .top ul {
